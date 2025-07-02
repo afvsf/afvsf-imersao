@@ -1,5 +1,4 @@
 
-
 .img_logo {
     width: 150px;
     height: 150px;
@@ -67,10 +66,6 @@ h3 {
 }
 
 
-div3 {
-    margin-top: 05px;
-    margin-bottom: 03px;
-}
 
 p {
     font-size: 10px;
@@ -86,7 +81,7 @@ p {
     margin-top: 05px;
     margin-bottom: 05px;
     font-size: 10px;
-    width: 150px;
+    width: 100%;
    font-size: 8px;
 }
 
@@ -111,8 +106,8 @@ button {
   border-radius: 4px;
   font-size: 16px;
 }
-.tabela {
-    width: 100%
-}
 
+.divtabela {
+    width: 100%;
+}
     
