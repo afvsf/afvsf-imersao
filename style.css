@@ -1,0 +1,112 @@
+
+
+.img_logo {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+     font-family: "Dancing Script", cursive;
+    font-weight: 400;
+     font-style: normal;
+     color: chocolate;
+     margin-top: 05px;
+    margin-bottom: 05px;
+}
+
+html {
+    background-color: #fffbb5;
+   
+}
+
+table {
+    font-size: 10px;
+}
+
+.select {
+    padding-left: 75px;
+    margin-top: 05px;
+    margin-bottom: 05px;
+    font-size: 10px;
+    width: 150px;
+}
+
+option {
+    text-align: center;
+    margin-top: 05px;
+    margin-bottom: 05px;
+    font-size: 10px;
+    width: 150px;
+    padding-left: 10px;
+}
+
+td {
+    text-align: center;
+}
+
+h2 {
+    font-size: 15px;
+    text-align: center;
+    color: chocolate;
+     margin-top: 05px;
+    margin-bottom: 05px;
+}
+
+h3 {
+    font-size: 10px;
+    text-align: center;
+     margin-top: 05px;
+    margin-bottom: 05px;
+}
+
+
+div {
+    margin-top: 05px;
+    margin-bottom: 03px;
+}
+
+p {
+    font-size: 10px;
+    text-align: center;
+    color: red;
+    margin-top: 01px;
+    margin-bottom: 01px;
+        
+}
+
+.select_tamanho {
+    padding-left: 10px;
+    margin-top: 05px;
+    margin-bottom: 05px;
+    font-size: 10px;
+    width: 150px;
+   font-size: 8px;
+}
+
+button {
+  cursor: pointer;
+  background-color: #25d366;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  height: 48px;
+}
+
+button img {
+  margin-right: 8px;
+}
+
+button {
+  width: 100%;
+  margin-bottom: 16px;
+  border-radius: 4px;
+  font-size: 16px;
+}
