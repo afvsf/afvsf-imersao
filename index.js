@@ -9,7 +9,7 @@
       var recheio2 = document.getElementById("seletor_recheios2").value;
       var recheio_especiais = document.getElementById("seletor_recheios_especial").value;
       var textarea = document.getElementById("msg").value;
-      var url = "https://wa.me/5571991643075?text=" // Seu numero
+      var url = "https://wa.me/5571988533382?text=" // Seu numero
         + "*Pedido de Bolo*" + "%0a" // Mensagem personalizada
         + "%0a" // Quebra de linha
         + "*Tamanho e Cobertura*: " + taman_cober + "%0a" // Dados do formulário
