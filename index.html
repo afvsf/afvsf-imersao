@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -10,12 +11,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
-    <title>Boloterapia</title>
+    <title>Bolo Terapia</title>
 </head>
 <body>
     <form action="#" method="get" onsubmit="abrirWhatsapp()">
     <div>
-        <img class="img_logo" src="Logo.png" alt="logo">
+        <img class="img_logo" src="./IMG/Logo.png" alt="logo">
     </div>
     <div class="div_cardapio">
          <h1>Cardápio</h1>
@@ -56,7 +57,7 @@
         </table>
         <div>                 
             <select class="tamanho" name="tamanho_cobertura" id="tamanho_cobertura">
-            <option value="">--Por favor Selecione sua opção--</option>
+            <option value="">-- Por favor Selecione sua opção --</option>
             <option value="Chantininho - 15cm - 12/15 fatias - R$ 180,00">Chantininho - 15cm - 12/15 fatias - R$ 180,00</option>
             <option value="Chantininho - 20cm - 25/30 fatias - R$ 230,00">Chantininho - 20cm - 25/30 fatias - R$ 230,00</option>
             <option value="Chantininho - 25cm - 40/45 fatias - R$ 280,00">Chantininho - 25cm - 40/45 fatias - R$ 280,00</option>
@@ -78,7 +79,7 @@
     <div><h3>TRADICIONAL - MISTA - RED VELVET - CHOCOLATE - MARACUJÁ - BLUE VELVET</h3></div>
     <div>        
             <select class="massa"  name="massas" id="seletor_massas">
-            <option value="">--Por favor escolha sua Massa--</option>
+            <option value="">-- Por favor escolha sua Massa --</option>
             <option value="Tradicional">Tradicional</option>
             <option value="Mista">Mista</option>
             <option value="Red Velvet">Red Velvet</option>
@@ -88,32 +89,46 @@
         </select>
     </div>
     <div><h2>RECHEIOS</h2></div>
-    <div><h3>NNHO - COCO - AMENDOIM - CHOCOLATE - MARACUJÁ - AMEIXA - BRIGADEIRO BRANCO - GOURMET</h3></div>
+    <div><h3>NINHO - COCO - AMENDOIM - CHOCOLATE - MARACUJÁ - BRIGADEIRO BRANCO - GOURMET</h3></div>
       <div>        
             <select class="recheio" name="recheio" id="seletor_recheios">
-            <option value="">--Por favor escolha seu Recheio--</option>
+            <option value="">-- Escolha sua 1ª opção de Recheio --</option>
             <option value="Ninho">Ninho</option>
             <option value="Coco">Coco</option>
             <option value="Amendoim">Amendoim</option>
             <option value="Chocolate">Chocolate</option>
             <option value="Maracuja">Maracujá</option>
-            <option value="Ameixa">Aneixa</option>
-            <option value="Brigadeiro_branco">Brigadeiro Branco</option>
+            <option value="Brigadeiro Branco">Brigadeiro Branco</option>
+            <option value="Gourmet">Gourmet</option>                          
+        </select>
+    </div>
+          <div>        
+            <select class="recheio" name="recheio2" id="seletor_recheios2">
+            <option value="">-- Escolha sua 2ª opção de Recheio --</option>
+            <option value="Ninho">Ninho</option>
+            <option value="Coco">Coco</option>
+            <option value="Amendoim">Amendoim</option>
+            <option value="Chocolate">Chocolate</option>
+            <option value="Maracuja">Maracujá</option>
+            <option value="Brigadeiro Branco">Brigadeiro Branco</option>
             <option value="Gourmet">Gourmet</option>                          
         </select>
     </div>
     <div><h2>RECHEIOS ESPECIAIS</h2></div>
-    <div><h3>PRESTÍGIO - CASTANHA - GELEIA DE MORANGO</h3></div>
+    <div><h3>PRESTÍGIO - CASTANHA - GELEIA DE MORANGO - AMEIXA</h3></div>
     <div><p>* ACRÉSCIMO DE 10% *</p></div>
     <div>         
             <select class="especial" name="recheio_especiais" id="seletor_recheios_especial">
-            <option value="">--Por favor escolha seu Recheio Especial--</option>
+            <option value="">-- Por favor escolha seu Recheio Especial --</option>
             <option value="Prestígio - ACRÉSCIMO DE 10%">Prestígio - ACRÉSCIMO DE 10%</option>
             <option value="Castanha - ACRÉSCIMO DE 10%">Castanha - ACRÉSCIMO DE 10%</option>
-            <option value="Geléia de Morango - ACRÉSCIMO DE 10%">Geléia de Morango - ACRÉSCIMO DE 10%</option>                                    
+            <option value="Geléia de Morango - ACRÉSCIMO DE 10%">Geléia de Morango - ACRÉSCIMO DE 10%</option>
+            <option value="Ameixa - ACRÉSCIMO DE 10%">Ameixa - ACRÉSCIMO DE 10%</option>                                  
         </select>
+        <textarea class="textarea" id="msg">Informações adicionais</textarea>
         </div>
-        <button type="submit"><img src="whatsapp.svg" alt="Icone Whatsapp"><span>Enviar dados p/ Whatsapp</span>
+        
+        <button type="submit"><img src="./IMG/whatsapp.svg" alt="Icone Whatsapp"><span>Enviar dados p/ Whatsapp</span>
     </button>
     <script src="./index.js"></script>
     </form>
