@@ -152,5 +152,10 @@ div {
    width: 97%;
    padding: 5px;
    margin-top: 8px;
-
 }
+
+.obs {
+    font-size: 10px;
+    color: red;
+}
+
